@@ -1,0 +1,46 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.exercicio1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author caua.3932
+ */
+   public class Exercicio1 {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner (System.in);
+        
+        
+        int opçao;
+        float num1, num2, num3, resultado;
+        
+        System.out.println("informe o primeiro numero: ");
+        num1 = scanner.nextFloat();
+        
+        System.out.println("informe o segundo numero: ");
+        num2 = scanner.nextFloat();
+        
+        System.out.println("informe o terceiro numero: ");
+        num3 = scanner.nextFloat();
+        
+        resultado = num1 + num2 + num3;
+        System.out.println("resultado: "+resultado);
+    }
+}        
+  
+  
+    
+
+    
+     
+    
+
+  
+    
+
